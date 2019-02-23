@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">ResturantApp</string>
+    <string name="discover_resturants">Discover Resturants</string>
+    <string name="n_cedar_st_amp_cedar"><![CDATA[N Cedar St & Cedar]]></string>
+    <string name="large_string">Mexican . 18 Tank house lane spot for Mexican tapas with a patio Open until 12:00 AM</string>
+    <string name="detail">I have a collection of food props and noticed that I have a disproportionate number of bowls compared to
+    plates.Bowls make me happy.This was shot on a white tablecloth in my studio with natural light from a south facing window and some additional light from a south facing window and some
+    additional light from my Westcott 2 x 2 flex mat LED light at 30% brightness.</string>
+    <string name="details">Details</string>
+    <string name="menu">Menu</string>
+    <string name="reviews">Reviews</string>
+    <string name="button_detail_text"><![CDATA[N Cedar St & Cedar]]></string>
+    <string name="delivery">Delivery</string>
+    <string name="map_view">Map View</string>
+    <string name="distance">1.5 Km</string>
+    <string name="time">10am-5pm</string>
+    <string name="detail_title">Pickle, jam and chutney</string>
 </resources>
