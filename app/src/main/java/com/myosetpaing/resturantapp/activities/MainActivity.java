@@ -1,4 +1,4 @@
-package com.myosetpaing.resturantapp.view;
+package com.myosetpaing.resturantapp.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -18,14 +18,15 @@ public class MainActivity extends AppCompatActivity implements FoodListDelegate 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
+                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
         rvFoodList = findViewById(R.id.rv_FoodList);
         adapter = new FoodListRecyclerViewAdapter(this);
         rvFoodList.setLayoutManager(new LinearLayoutManager(getApplicationContext()
                 , LinearLayoutManager.VERTICAL
                 , false));
         rvFoodList.setAdapter(adapter);
+        rvFoodList.setNestedScrollingEnabled(false);
     }
 
     @Override

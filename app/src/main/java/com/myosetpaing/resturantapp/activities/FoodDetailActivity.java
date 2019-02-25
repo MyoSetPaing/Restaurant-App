@@ -1,4 +1,4 @@
-package com.myosetpaing.resturantapp.view;
+package com.myosetpaing.resturantapp.activities;
 
 import android.content.Context;
 import android.content.Intent;
